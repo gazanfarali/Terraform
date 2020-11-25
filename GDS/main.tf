@@ -1,4 +1,4 @@
-
+#https://medium.com/@brad.simonin/create-an-aws-vpc-and-subnet-using-terraform-d3bddcbbcb6
 #https://github.com/camdesgov/terraform_quiz
 provider "aws" {
   version = "~> 2.0"
