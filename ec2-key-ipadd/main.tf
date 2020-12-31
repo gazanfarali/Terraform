@@ -23,6 +23,11 @@ provisioner "file" {
   destination = "/tmp/install.bash"
 }
 
+provisioner "file" {
+  source      = "verify.sh"
+  destination = "/tmp/verify.sh"
+}
+
 provisioner "remote-exec" {
   inline = [
     "chmod +x /tmp/install.bash",
