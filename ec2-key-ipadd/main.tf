@@ -34,3 +34,4 @@ provisioner "remote-exec" {
     "/tmp/install.bash args",
   ]
 }
+
