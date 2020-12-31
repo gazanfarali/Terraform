@@ -19,13 +19,13 @@ resource "aws_eip" "ip" {
 
 # copying script to resource and exicuting it https://www.terraform.io/docs/provisioners/remote-exec.html
 provisioner "file" {
-  source      = "install.sh"
-  destination = "/tmp/install.sh"
+  source      = "install.bash"
+  destination = "/tmp/install.bash"
 }
 
 provisioner "remote-exec" {
   inline = [
-    "chmod +x /tmp/install.sh",
-    "/tmp/install.sh args",
+    "chmod +x /tmp/install.bash",
+    "/tmp/install.bash args",
   ]
 }
