@@ -1,0 +1,181 @@
+commit b3b1c8032934e70995e3da15a20f2f69ae6ac65a
+tree 9d7a9a47ddf6ac1b0afeab46cfdb5694d1332abd
+parent a6e929b88d76663c1b72073abb3e12ae82394127
+author gazanfarali <gasyed@live.com> 2020-07-27 11:37:12 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-27 11:37:12 +0100
+
+    adding cfg file
+
+
+
+:100644 100644 8ef4d808ebcb0c0313eb72ad714ff2dcfe8d153c 2c57e4363823cea492836918d993ab1e0132224d R084	ansible.cfg.txt	ansible.cfg
+:100644 000000 6dceb89360c2bc629cc64815e80278d6562a7f58 0000000000000000000000000000000000000000 D	hosts.ini
+:000000 100644 0000000000000000000000000000000000000000 c18d398ca91628ee63d8d853529918308b6e1d03 A	inventory
+:100644 000000 5f3ade655102c4bb6024e2741712e53816f07ca6 0000000000000000000000000000000000000000 D	inventory.txt
+commit a6e929b88d76663c1b72073abb3e12ae82394127
+tree 5e2ff9697c8bfd1170eb17f8551d5bbab5f7dd78
+parent 671624e335c762b3718038e370eed9a2a4c7dd6b
+author gazanfarali <gasyed@live.com> 2020-07-23 10:37:18 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:37:18 +0100
+
+    updating cfg file
+
+
+
+:100644 100644 a2af15be64518a7e9530db0f47d1e9e025030382 8ef4d808ebcb0c0313eb72ad714ff2dcfe8d153c M	ansible.cfg.txt
+commit 671624e335c762b3718038e370eed9a2a4c7dd6b
+tree a809269d729e7f5dfe8dfa40885e415c3342e87f
+parent de1f1fcba81d11eb3957c5dc11113a781984ac9e
+author gazanfarali <gasyed@live.com> 2020-07-23 10:34:51 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:34:51 +0100
+
+    #unparsed_is_failed=False
+
+
+
+:100644 100644 cc69a4bb3f83e6f56ff606b3bc4c802672d6e795 a2af15be64518a7e9530db0f47d1e9e025030382 M	ansible.cfg.txt
+commit de1f1fcba81d11eb3957c5dc11113a781984ac9e
+tree eeb41a889cbafbf785fc1de7bf4529de257d9723
+parent 676ce95918f5ca56877759e8ea90b24b9cc217f9
+author gazanfarali <gasyed@live.com> 2020-07-23 10:21:17 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:21:17 +0100
+
+    adding hosts.ini
+
+
+
+:100644 100644 6dceb89360c2bc629cc64815e80278d6562a7f58 6dceb89360c2bc629cc64815e80278d6562a7f58 R100	hosts.txt	hosts.ini
+commit 676ce95918f5ca56877759e8ea90b24b9cc217f9
+tree cfb931730a56f661102b8186f36988654c90b2d0
+parent 78dd937a9a67f776937030144f947c7cabe42e90
+author gazanfarali <gasyed@live.com> 2020-07-23 10:17:49 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:17:49 +0100
+
+    adding hosts file
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 6dceb89360c2bc629cc64815e80278d6562a7f58 A	hosts.txt
+commit 78dd937a9a67f776937030144f947c7cabe42e90
+tree 6a4754f1c6873d019295947dd67419db57d2a194
+parent 59387ca4c694189aefd240550612a71942e5e942
+author gazanfarali <gasyed@live.com> 2020-07-23 10:14:24 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:14:24 +0100
+
+    revert host to server1
+
+
+
+:100644 100644 9c9b2768b4ab8f816779e0ac1e9685a695c3d075 fa5895db19f302968ed3c301357b9d52ac6c366f M	test.yml
+commit 59387ca4c694189aefd240550612a71942e5e942
+tree 28b8e5dd2f84040ed9bb52cd3e5cc843ad789df0
+parent a252cb918a019f9c740f731143e405a38e1a76a8
+author gazanfarali <gasyed@live.com> 2020-07-23 09:29:50 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:29:50 +0100
+
+    update inventory
+
+
+
+:100644 100644 48e56cf7cdf489da25e5ebc9fc1d2794f51365fe 5f3ade655102c4bb6024e2741712e53816f07ca6 M	inventory.txt
+commit a252cb918a019f9c740f731143e405a38e1a76a8
+tree 158e2e0307266a5897244e4eb9422cbab84da066
+parent 96deafe90bb3e260c1e1155d978dffc2dd548508
+author gazanfarali <gasyed@live.com> 2020-07-23 09:27:42 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:27:42 +0100
+
+    update hosts
+
+
+
+:100644 100644 f596960a37a2ad84c96a0875c2abafa62a863ea0 9c9b2768b4ab8f816779e0ac1e9685a695c3d075 M	test.yml
+commit 96deafe90bb3e260c1e1155d978dffc2dd548508
+tree 50026f9b63b3d59a13b9bda42f1cd76c6763ea6e
+parent c2d960c616bb042773981fb8c2b5d5df83465ada
+author gazanfarali <gasyed@live.com> 2020-07-23 09:24:29 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:24:29 +0100
+
+    update inventory.txt
+
+
+
+:100644 100644 c8c3fa42b170f3628541463dfcc68ad96a2926f7 cc69a4bb3f83e6f56ff606b3bc4c802672d6e795 M	ansible.cfg.txt
+:100644 000000 4400bd10d952d195a308888cde37ecd67e16a785 0000000000000000000000000000000000000000 D	hosts.txt
+:100644 100644 ca0e5e4c8be5a0895242270c9c9c6cb246ea4c93 48e56cf7cdf489da25e5ebc9fc1d2794f51365fe M	inventory.txt
+commit c2d960c616bb042773981fb8c2b5d5df83465ada
+tree 637cf9e08ca23a186b3440b95e565bcf76e5650f
+parent 4f3564b81150f6a3e13ac2ae04c73d3378c054df
+author gazanfarali <gasyed@live.com> 2020-07-23 09:09:14 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:09:14 +0100
+
+    update test.yml
+
+
+
+:100644 100644 7ec27653b1f2c053a176a1baba2a574fb10e9aab f596960a37a2ad84c96a0875c2abafa62a863ea0 M	test.yml
+commit 4f3564b81150f6a3e13ac2ae04c73d3378c054df
+tree 4b121505c314b75be82646fa67bdfbdac41e25cd
+parent 73373fa16f428d9dcc330c7a0a658753ea0d24eb
+author gazanfarali <gasyed@live.com> 2020-07-22 13:25:42 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 13:25:42 +0100
+
+    test commit
+
+
+
+:100644 100644 f82d8ceceb3117cbd73d1259846063088a4bb9d6 7ec27653b1f2c053a176a1baba2a574fb10e9aab M	test.yml
+commit 73373fa16f428d9dcc330c7a0a658753ea0d24eb
+tree 7e6b9e716f386d6fd567a498499a0545077766c7
+parent ba694aff59aa80fe0ae117b2e950be6391a4b097
+author gazanfarali <gasyed@live.com> 2020-07-22 13:00:10 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 13:00:10 +0100
+
+    adding default ansible.cfg
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 c8c3fa42b170f3628541463dfcc68ad96a2926f7 A	ansible.cfg.txt
+commit ba694aff59aa80fe0ae117b2e950be6391a4b097
+tree 4f757dcb9e65019e2f7663d8677cfd7a517d640e
+parent 0c194367e385dbe65c737cf973d65f3226fbe1b6
+author gazanfarali <gasyed@live.com> 2020-07-22 12:16:02 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:16:02 +0100
+
+    copy form https://linuxhint.com/ansible_debug_module/
+
+
+
+:100644 100644 9f0abc8bc40d87941ff6d5c01e5ee7789f13da11 f82d8ceceb3117cbd73d1259846063088a4bb9d6 M	test.yml
+commit 0c194367e385dbe65c737cf973d65f3226fbe1b6
+tree 10c10c0345266539aa900b88d4ddde85bbd81e50
+parent ab4a685fd5741ee3e018d2e72870c0cdbd8d3e4f
+author gazanfarali <gasyed@live.com> 2020-07-22 12:10:39 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:10:39 +0100
+
+    removing indentation
+
+
+
+:100644 100644 d6fcd894fb12bdb5b054081ec83269c0c583f90a 9f0abc8bc40d87941ff6d5c01e5ee7789f13da11 M	test.yml
+commit ab4a685fd5741ee3e018d2e72870c0cdbd8d3e4f
+tree c7953a93cdec91e5d2538003dc00075d38c82aaa
+parent 65198360b2261ead86340d04dae44232fe789bf1
+author gazanfarali <gasyed@live.com> 2020-07-22 12:05:23 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:05:23 +0100
+
+    adding - to name
+
+
+
+:100644 100644 4ac9021799892b4ffc54f98541f8c32d7ae95aef d6fcd894fb12bdb5b054081ec83269c0c583f90a M	test.yml
+commit 65198360b2261ead86340d04dae44232fe789bf1
+tree d2bc51a205f5ab68b07422255969ab99d2046ad2
+parent 1603fad1527072a370007509a1d0cecb031418f6
+author gazanfarali <gasyed@live.com> 2020-07-22 12:03:19 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:03:19 +0100
+
+    removeing debug
+
+
+
+:100644 100644 c7349e8d26787499662d5c90a6c14d9de0dbf0c8 4ac9021799892b4ffc54f98541f8c32d7ae95aef M	test.yml

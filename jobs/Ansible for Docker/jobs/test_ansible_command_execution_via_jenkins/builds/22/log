@@ -1,0 +1,35 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building remotely on [8mha:////4JD5Ta2O/EONN+NMo5qvrwxkocojkb6ppJ8XRfwtsFuyAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/SAPV594x7zizKSc1HigrpKi/Jyc1CIA832Z8tYAAAA=[0mRHEL_Ansible_Controller (Ansible) in workspace /home/ansible/jenkins/workspace/Ansible for Docker/test_ansible_command_execution_via_jenkins
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /home/ansible/jenkins/workspace/Ansible for Docker/test_ansible_command_execution_via_jenkins # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse origin/feature-test-feature-builds^{commit} # timeout=10
+Checking out Revision 676ce95918f5ca56877759e8ea90b24b9cc217f9 (origin/feature-test-feature-builds)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 676ce95918f5ca56877759e8ea90b24b9cc217f9
+Commit message: "adding hosts file"
+ > git rev-list --no-walk 78dd937a9a67f776937030144f947c7cabe42e90 # timeout=10
+[test_ansible_command_execution_via_jenkins] $ sshpass ******** /usr/bin/ansible-playbook test.yml -f 5 -u ansible -k
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+[WARNING]: Could not match supplied host pattern, ignoring: server1
+
+PLAY [Test for Jenkins Output] *************************************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+
+Finished: SUCCESS

@@ -1,0 +1,35 @@
+commit d09f70f024eff21df139c7f6a401059726a20d03
+tree 2a36b55331eb72cb1e4e0cbc0066bcd3b655605d
+parent ee95f86f6120abcea89316b21b7668c34292b7ba
+author gazanfarali <gasyed@live.com> 2020-07-15 12:15:51 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-15 12:15:51 +0100
+
+    adding yaml validator
+
+
+
+:100644 100644 025cf7d458afa767ed937b5fd89876bb8b041f80 628941a7a4a1d896833e638a03e0633f7e554e12 M	pom.xml
+commit ee95f86f6120abcea89316b21b7668c34292b7ba
+tree d4ac40925adebb68e0f7f8a7bcbee07a95c4ef82
+parent b25702c8583c0de9b38db9a6dafec58134c3eb01
+author gazanfarali <gasyed@live.com> 2020-07-15 08:19:24 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-15 08:19:24 +0100
+
+    updating pom.xml
+
+
+
+:100644 100644 480298ab9d9858b3d83350166b84819ada2391ee 025cf7d458afa767ed937b5fd89876bb8b041f80 M	pom.xml
+commit b25702c8583c0de9b38db9a6dafec58134c3eb01
+tree 69dee50446918d6219190dd747dbb24912cdec33
+parent 7443080d94a192253925379d970fafbc7ea1768d
+author gazanfarali <gasyed@live.com> 2020-07-15 07:34:08 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-15 07:34:08 +0100
+
+    updating pom.xml
+
+
+
+:100644 100644 e6b5bf97d8566b2db0f9adf30558add7e5674286 480298ab9d9858b3d83350166b84819ada2391ee M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 dca340be6503e6df1913ebe2b4c9fecb9a74199e A	src/main/java/ansible/App.java
+:000000 100644 0000000000000000000000000000000000000000 494b229dcd6b67796da15a7a9bd02ef0bfc6ce69 A	src/test/java/ansible/AppTest.java

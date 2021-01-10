@@ -1,0 +1,11 @@
+commit 78dd937a9a67f776937030144f947c7cabe42e90
+tree 6a4754f1c6873d019295947dd67419db57d2a194
+parent 59387ca4c694189aefd240550612a71942e5e942
+author gazanfarali <gasyed@live.com> 2020-07-23 10:14:24 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:14:24 +0100
+
+    revert host to server1
+
+
+
+:100644 100644 9c9b2768b4ab8f816779e0ac1e9685a695c3d075 fa5895db19f302968ed3c301357b9d52ac6c366f M	test.yml

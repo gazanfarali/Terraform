@@ -1,0 +1,22 @@
+commit f69775f56d6000d5d3329ab82eb809a253d901b2
+tree 35cd8e6503fe4891cf1abdf0ba7ac03b240fc992
+parent 27e65bdf7caa2957b9ca8c87171d6f5edf398bee
+author gazanfarali <gasyed@live.com> 2019-04-06 08:37:08 +0100
+committer gazanfarali <gasyed@live.com> 2019-04-06 08:37:08 +0100
+
+    removing . at end of version
+
+
+
+:100644 100644 84f504a9e9ed580ae7e56e47f944ec17c4ef25c0 76a0cd9f943313aad694dea57326af18f5669935 M	pom.xml
+commit 27e65bdf7caa2957b9ca8c87171d6f5edf398bee
+tree 9a0178d28f1d59381542f061e8536abbfcb552fe
+parent 70a1a2924736a110c863a612653f382bf6fb8ff6
+author gazanfarali <gasyed@live.com> 2019-04-06 08:33:36 +0100
+committer gazanfarali <gasyed@live.com> 2019-04-06 08:33:36 +0100
+
+    updating versions to 0.0.8
+
+
+
+:100644 100644 8b565c0c8f12c9922cf5fcdf33749c3d3b0d78d8 84f504a9e9ed580ae7e56e47f944ec17c4ef25c0 M	pom.xml

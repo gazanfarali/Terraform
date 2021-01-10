@@ -1,0 +1,61 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Firstmaven
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/checkstyle.git
+ > git init C:\Program Files (x86)\Jenkins\workspace\Firstmaven # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/checkstyle.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/gazanfarali/checkstyle.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/checkstyle.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/checkstyle.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/checkstyle.git
+ > git fetch --tags --progress https://github.com/gazanfarali/checkstyle.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 8556dce421620035bfabeb7532a91f13f350ef7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8556dce421620035bfabeb7532a91f13f350ef7a
+Commit message: "Merge pull request #1 from gazanfarali/test"
+ > git rev-list --no-walk d3497c362d708d91099d09862206f3b089501802 # timeout=10
+[Firstmaven] $ cmd.exe /C '""C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\mvn.cmd"' clean install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.github.sevntu-checkstyle:maven-project >-------------
+[INFO] Building maven-project 0.0.11-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-project ---
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Firstmaven\src\main\resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ maven-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Firstmaven\src\test\resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ maven-project ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven-project ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ maven-project ---
+[INFO] Building jar: C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\maven-project-0.0.11-SNAPSHOT.jar
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-project ---
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\maven-project-0.0.11-SNAPSHOT.jar to C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\sevntu-checkstyle\maven-project\0.0.11-SNAPSHOT\maven-project-0.0.11-SNAPSHOT.jar
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\Firstmaven\pom.xml to C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\sevntu-checkstyle\maven-project\0.0.11-SNAPSHOT\maven-project-0.0.11-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.128 s
+[INFO] Finished at: 2019-07-20T00:54:41+01:00
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

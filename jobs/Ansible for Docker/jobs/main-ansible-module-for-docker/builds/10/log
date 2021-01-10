@@ -1,0 +1,104 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building remotely on [8mha:////4JD5Ta2O/EONN+NMo5qvrwxkocojkb6ppJ8XRfwtsFuyAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/SAPV594x7zizKSc1HigrpKi/Jyc1CIA832Z8tYAAAA=[0mRHEL_Ansible_Controller (Ansible) in workspace /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d09f70f024eff21df139c7f6a401059726a20d03 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d09f70f024eff21df139c7f6a401059726a20d03
+Commit message: "adding yaml validator"
+ > git rev-list --no-walk d09f70f024eff21df139c7f6a401059726a20d03 # timeout=10
+[main-ansible-module-for-docker] $ /usr/share/maven/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ansible:docker >---------------------------
+[INFO] Building docker 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ docker ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.663 s
+[INFO] Finished at: 2020-07-16T03:15:27-07:00
+[INFO] ------------------------------------------------------------------------
+[main-ansible-module-for-docker] $ /usr/share/maven/bin/mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ansible:docker >---------------------------
+[INFO] Building docker 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- yaml-json-validator-maven-plugin:1.0.4:validate (validate) @ docker ---
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/src/main/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/target/classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/src/test/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/target/test-classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ docker ---
+[INFO] Surefire report directory: /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ansible.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ docker ---
+[INFO] Building jar: /home/ansible/jenkins/workspace/Ansible for Docker/main-ansible-module-for-docker/target/docker-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.073 s
+[INFO] Finished at: 2020-07-16T03:15:34-07:00
+[INFO] ------------------------------------------------------------------------
+[main-ansible-module-for-docker] $ sshpass ******** /usr/bin/ansible/ansible server1 -a "-m ping -i inventory" -f 5 -u ansible -k
+sshpass: Failed to run command: Not a directory
+FATAL: command execution failed
+hudson.AbortException: Ansible Ad-Hoc command execution failed
+	at org.jenkinsci.plugins.ansible.AnsibleAdHocCommandBuilder.perform(AnsibleAdHocCommandBuilder.java:224)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1880)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+ERROR: Ansible Ad-Hoc command execution failed
+Finished: FAILURE

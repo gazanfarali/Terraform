@@ -1,0 +1,42 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building remotely on [8mha:////4KTAGC9qLQ7XpNYr9E3UXgmXnQESDZNIPyFSFbFwtTW9AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eLUorLUIkMA/KK/AMYAAAA=[0mserver1 (BIS) in workspace /root/jenkins/workspace/Docker-engine-git/Main-branch-Docker-engine-via-git
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/Docker-engine-via-git.git
+ > git init /root/jenkins/workspace/Docker-engine-git/Main-branch-Docker-engine-via-git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/Docker-engine-via-git.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/Docker-engine-via-git.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/Docker-engine-via-git.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/Docker-engine-via-git.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/Docker-engine-via-git.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/Docker-engine-via-git.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5af052c56cf34d91a365da6f8447280cf7f20afc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5af052c56cf34d91a365da6f8447280cf7f20afc
+Commit message: "adding agent.jar"
+ > git rev-list --no-walk 1378ea3a4903a1fff6864e7c9911697f7f251af6 # timeout=10
+[Main-branch-Docker-engine-via-git] $ /usr/share/maven/bin/mvn mvn clean
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.094s
+[INFO] Finished at: Sun Jul 12 18:59:43 BST 2020
+[INFO] Final Memory: 5M/53M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/root/jenkins/workspace/Docker-engine-git/Main-branch-Docker-engine-via-git). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4H7MEL7upw/wxE4ZE6pDEopQdtXFL8eB8iEs2Yv/+gH6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

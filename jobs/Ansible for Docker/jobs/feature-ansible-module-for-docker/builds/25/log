@@ -1,0 +1,157 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4JD5Ta2O/EONN+NMo5qvrwxkocojkb6ppJ8XRfwtsFuyAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/SAPV594x7zizKSc1HigrpKi/Jyc1CIA832Z8tYAAAA=[0mRHEL_Ansible_Controller (Ansible) in workspace /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse origin/feature-test-feature-builds^{commit} # timeout=10
+Checking out Revision 011c6d1ba91954780a3ff195c0a55b29162214ed (origin/feature-test-feature-builds)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 011c6d1ba91954780a3ff195c0a55b29162214ed
+Commit message: "updating distribution management"
+ > git rev-list --no-walk 011c6d1ba91954780a3ff195c0a55b29162214ed # timeout=10
+[feature-ansible-module-for-docker] $ /usr/share/maven/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ansible:docker >---------------------------
+[INFO] Building docker 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ docker ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.583 s
+[INFO] Finished at: 2020-07-27T05:35:00-07:00
+[INFO] ------------------------------------------------------------------------
+[feature-ansible-module-for-docker] $ /usr/share/maven/bin/mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< ansible:docker >---------------------------
+[INFO] Building docker 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- yaml-json-validator-maven-plugin:1.0.4:validate (validate) @ docker ---
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/src/main/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/src/test/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/test-classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ docker ---
+[INFO] Surefire report directory: /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ansible.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ docker ---
+[INFO] Building jar: /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/docker-1.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.937 s
+[INFO] Finished at: 2020-07-27T05:35:08-07:00
+[INFO] ------------------------------------------------------------------------
+[feature-ansible-module-for-docker] $ sshpass ******** /usr/bin/ansible-playbook test.yml -i inventory -f 5 -u ansible -k
+
+PLAY [Test for Jenkins Output] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server1]
+
+TASK [test command] ************************************************************
+changed: [server1]
+
+TASK [output result] ***********************************************************
+ok: [server1] => {
+    "output_result": {
+        "changed": true,
+        "cmd": [
+            "timedatectl"
+        ],
+        "delta": "0:00:00.056034",
+        "end": "2020-07-27 08:35:17.032358",
+        "failed": false,
+        "rc": 0,
+        "start": "2020-07-27 08:35:16.976324",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "               Local time: Mon 2020-07-27 08:35:17 EDT\n           Universal time: Mon 2020-07-27 12:35:17 UTC\n                 RTC time: Mon 2020-07-27 12:35:16\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: no\n              NTP service: active\n          RTC in local TZ: no",
+        "stdout_lines": [
+            "               Local time: Mon 2020-07-27 08:35:17 EDT",
+            "           Universal time: Mon 2020-07-27 12:35:17 UTC",
+            "                 RTC time: Mon 2020-07-27 12:35:16",
+            "                Time zone: America/New_York (EDT, -0400)",
+            "System clock synchronized: no",
+            "              NTP service: active",
+            "          RTC in local TZ: no"
+        ]
+    }
+}
+
+PLAY RECAP *********************************************************************
+server1                    : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+docker-1.0 file doesn't exist
+FATAL: docker-1.0 file doesn't exist
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from DESKTOP-IIP997R/192.168.56.1:58852
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1788)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:998)
+		at hudson.FilePath.act(FilePath.java:1160)
+		at sp.sd.nexusartifactuploader.NexusArtifactUploader.perform(NexusArtifactUploader.java:160)
+		at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+		at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+		at hudson.model.Build$BuildExecution.build(Build.java:206)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+		at hudson.model.Run.execute(Run.java:1880)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:428)
+java.io.IOException: docker-1.0 file doesn't exist
+	at sp.sd.nexusartifactuploader.NexusArtifactUploader$1.call(NexusArtifactUploader.java:171)
+	at sp.sd.nexusartifactuploader.NexusArtifactUploader$1.call(NexusArtifactUploader.java:160)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

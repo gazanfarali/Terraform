@@ -1,0 +1,11 @@
+commit 0c194367e385dbe65c737cf973d65f3226fbe1b6
+tree 10c10c0345266539aa900b88d4ddde85bbd81e50
+parent ab4a685fd5741ee3e018d2e72870c0cdbd8d3e4f
+author gazanfarali <gasyed@live.com> 2020-07-22 12:10:39 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:10:39 +0100
+
+    removing indentation
+
+
+
+:100644 100644 d6fcd894fb12bdb5b054081ec83269c0c583f90a 9f0abc8bc40d87941ff6d5c01e5ee7789f13da11 M	test.yml

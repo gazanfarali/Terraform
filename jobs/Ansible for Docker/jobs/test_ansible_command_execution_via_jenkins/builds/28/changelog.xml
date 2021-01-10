@@ -1,0 +1,11 @@
+commit 671624e335c762b3718038e370eed9a2a4c7dd6b
+tree a809269d729e7f5dfe8dfa40885e415c3342e87f
+parent de1f1fcba81d11eb3957c5dc11113a781984ac9e
+author gazanfarali <gasyed@live.com> 2020-07-23 10:34:51 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:34:51 +0100
+
+    #unparsed_is_failed=False
+
+
+
+:100644 100644 cc69a4bb3f83e6f56ff606b3bc4c802672d6e795 a2af15be64518a7e9530db0f47d1e9e025030382 M	ansible.cfg.txt

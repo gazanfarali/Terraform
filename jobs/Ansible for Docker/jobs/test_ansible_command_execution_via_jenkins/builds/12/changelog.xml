@@ -1,0 +1,22 @@
+commit 4f3564b81150f6a3e13ac2ae04c73d3378c054df
+tree 4b121505c314b75be82646fa67bdfbdac41e25cd
+parent 73373fa16f428d9dcc330c7a0a658753ea0d24eb
+author gazanfarali <gasyed@live.com> 2020-07-22 13:25:42 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 13:25:42 +0100
+
+    test commit
+
+
+
+:100644 100644 f82d8ceceb3117cbd73d1259846063088a4bb9d6 7ec27653b1f2c053a176a1baba2a574fb10e9aab M	test.yml
+commit 73373fa16f428d9dcc330c7a0a658753ea0d24eb
+tree 7e6b9e716f386d6fd567a498499a0545077766c7
+parent ba694aff59aa80fe0ae117b2e950be6391a4b097
+author gazanfarali <gasyed@live.com> 2020-07-22 13:00:10 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 13:00:10 +0100
+
+    adding default ansible.cfg
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 c8c3fa42b170f3628541463dfcc68ad96a2926f7 A	ansible.cfg.txt

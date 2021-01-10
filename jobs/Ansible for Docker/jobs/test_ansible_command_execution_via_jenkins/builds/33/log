@@ -1,0 +1,64 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4JD5Ta2O/EONN+NMo5qvrwxkocojkb6ppJ8XRfwtsFuyAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/SAPV594x7zizKSc1HigrpKi/Jyc1CIA832Z8tYAAAA=[0mRHEL_Ansible_Controller (Ansible) in workspace /home/ansible/jenkins/workspace/Ansible for Docker/test_ansible_command_execution_via_jenkins
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /home/ansible/jenkins/workspace/Ansible for Docker/test_ansible_command_execution_via_jenkins # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse origin/feature-test-feature-builds^{commit} # timeout=10
+Checking out Revision b3b1c8032934e70995e3da15a20f2f69ae6ac65a (origin/feature-test-feature-builds)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3b1c8032934e70995e3da15a20f2f69ae6ac65a
+Commit message: "adding cfg file"
+ > git rev-list --no-walk a6e929b88d76663c1b72073abb3e12ae82394127 # timeout=10
+[test_ansible_command_execution_via_jenkins] $ sshpass ******** /usr/bin/ansible-playbook test.yml -i inventory -f 5 -u ansible -k
+
+PLAY [Test for Jenkins Output] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server1]
+
+TASK [test command] ************************************************************
+changed: [server1]
+
+TASK [output result] ***********************************************************
+ok: [server1] => {
+    "output_result": {
+        "changed": true,
+        "cmd": [
+            "timedatectl"
+        ],
+        "delta": "0:00:00.121705",
+        "end": "2020-07-27 07:02:01.179619",
+        "failed": false,
+        "rc": 0,
+        "start": "2020-07-27 07:02:01.057914",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "               Local time: Mon 2020-07-27 07:02:01 EDT\n           Universal time: Mon 2020-07-27 11:02:01 UTC\n                 RTC time: Mon 2020-07-27 11:02:00\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: no\n              NTP service: active\n          RTC in local TZ: no",
+        "stdout_lines": [
+            "               Local time: Mon 2020-07-27 07:02:01 EDT",
+            "           Universal time: Mon 2020-07-27 11:02:01 UTC",
+            "                 RTC time: Mon 2020-07-27 11:02:00",
+            "                Time zone: America/New_York (EDT, -0400)",
+            "System clock synchronized: no",
+            "              NTP service: active",
+            "          RTC in local TZ: no"
+        ]
+    }
+}
+
+PLAY RECAP *********************************************************************
+server1                    : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

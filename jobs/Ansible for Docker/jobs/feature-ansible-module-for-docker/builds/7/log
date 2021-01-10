@@ -1,0 +1,88 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building remotely on [8mha:////4KTAGC9qLQ7XpNYr9E3UXgmXnQESDZNIPyFSFbFwtTW9AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eLUorLUIkMA/KK/AMYAAAA=[0mserver1 (BIS) in workspace /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse origin/feature-test-feature-builds^{commit} # timeout=10
+Checking out Revision b42965947286c3d5aa39ce58c50b2bca54639867 (origin/feature-test-feature-builds)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b42965947286c3d5aa39ce58c50b2bca54639867
+Commit message: "removing resources"
+ > git rev-list --no-walk bc797d3e7813ff37b4aff5e525ca276bf91a2d49 # timeout=10
+[feature-ansible-module-for-docker] $ /usr/share/maven/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building docker 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ docker ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.250s
+[INFO] Finished at: Wed Jul 22 00:54:50 BST 2020
+[INFO] Final Memory: 8M/53M
+[INFO] ------------------------------------------------------------------------
+[feature-ansible-module-for-docker] $ /usr/share/maven/bin/mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building docker 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- yaml-json-validator-maven-plugin:1.0.4:validate (validate) @ docker ---
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ docker ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/src/main/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ docker ---
+[INFO] Compiling 1 source file to /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ docker ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/src/test/resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ docker ---
+[INFO] Compiling 1 source file to /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/test-classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ docker ---
+[INFO] Surefire report directory: /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ansible.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ docker ---
+[INFO] Building jar: /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker/target/docker-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.970s
+[INFO] Finished at: Wed Jul 22 00:54:54 BST 2020
+[INFO] Final Memory: 20M/133M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

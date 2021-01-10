@@ -1,0 +1,22 @@
+commit b42965947286c3d5aa39ce58c50b2bca54639867
+tree fdb63bc76b764e0c7663a2d23f827a333769814e
+parent d3ae8de43dc6c2cf7e4103baeaedcd944f32db13
+author gazanfarali <gasyed@live.com> 2020-07-21 23:53:46 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-21 23:53:46 +0100
+
+    removing resources
+
+
+
+:100644 100644 64255a87d63540788b400e9a8a9b790534493353 dc30b6052a854c3912b742d034e8fc20cc711b5f M	pom.xml
+commit d3ae8de43dc6c2cf7e4103baeaedcd944f32db13
+tree 6b885c19331075374743291b538c2e660e1f6afe
+parent bc797d3e7813ff37b4aff5e525ca276bf91a2d49
+author gazanfarali <gasyed@live.com> 2020-07-21 23:51:04 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-21 23:51:04 +0100
+
+    adding resources
+
+
+
+:100644 100644 628941a7a4a1d896833e638a03e0633f7e554e12 64255a87d63540788b400e9a8a9b790534493353 M	pom.xml

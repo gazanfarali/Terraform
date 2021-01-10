@@ -1,0 +1,110 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Building on master in workspace C:\Program Files (x86)\Jenkins\workspace\Firstmaven
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gazanfarali/checkstyle.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/checkstyle.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/gazanfarali/checkstyle.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 70a1a2924736a110c863a612653f382bf6fb8ff6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 70a1a2924736a110c863a612653f382bf6fb8ff6
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 70a1a2924736a110c863a612653f382bf6fb8ff6 # timeout=10
+[Firstmaven] $ cmd.exe /C '""C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\mvn.cmd"' clean install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.github.sevntu-checkstyle:maven-project >-------------
+[INFO] Building maven-project 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-project ---
+[INFO] Deleting C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Firstmaven\src\main\resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ maven-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\classes
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Firstmaven\src\test\resources
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ maven-project ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven-project ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ maven-project ---
+[INFO] Building jar: C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\maven-project-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-project ---
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\Firstmaven\target\maven-project-0.0.1-SNAPSHOT.jar to C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\sevntu-checkstyle\maven-project\0.0.1-SNAPSHOT\maven-project-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\Firstmaven\pom.xml to C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\sevntu-checkstyle\maven-project\0.0.1-SNAPSHOT\maven-project-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.815 s
+[INFO] Finished at: 2018-07-12T15:38:01+01:00
+[INFO] ------------------------------------------------------------------------
+Sending e-mails to: syedaliyours@gmail.com
+ERROR: Could not connect to SMTP host: smtp.gmail.com, port: 465
+javax.mail.MessagingException: Could not connect to SMTP host: smtp.gmail.com, port: 465;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:171)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1819)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:507)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 29 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 35 more
+Finished: SUCCESS

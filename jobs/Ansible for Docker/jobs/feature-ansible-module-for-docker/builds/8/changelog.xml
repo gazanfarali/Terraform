@@ -1,0 +1,11 @@
+commit 1603fad1527072a370007509a1d0cecb031418f6
+tree c214cebd871296fd692a763ff25eabaafc0af0a8
+parent b42965947286c3d5aa39ce58c50b2bca54639867
+author gazanfarali <gasyed@live.com> 2020-07-22 11:12:13 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 11:12:13 +0100
+
+    adding test.yml for jenkins
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 c7349e8d26787499662d5c90a6c14d9de0dbf0c8 A	test.yml

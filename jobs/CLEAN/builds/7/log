@@ -1,0 +1,31 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Building on master in workspace C:\Program Files (x86)\Jenkins\workspace\CLEAN
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gazanfarali/checkstyle.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/checkstyle.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/gazanfarali/checkstyle.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 70a1a2924736a110c863a612653f382bf6fb8ff6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 70a1a2924736a110c863a612653f382bf6fb8ff6
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 70a1a2924736a110c863a612653f382bf6fb8ff6 # timeout=10
+[CLEAN] $ cmd.exe /C '""C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\mvn.cmd"' clean && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.github.sevntu-checkstyle:maven-project >-------------
+[INFO] Building maven-project 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4LZefQ+em4tB8PkZ8yrI+WGAHGm+EsHlUwpBN09KpZEOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-project ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.474 s
+[INFO] Finished at: 2018-06-26T18:07:02+01:00
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4LFM29AKFp4QUWpP4/cxxadVS86pKB5RV4KNrQbly3C9AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH1nf98ATx9XfQBkDrwXwgAAAA==[0mCOMPILE
+Finished: SUCCESS

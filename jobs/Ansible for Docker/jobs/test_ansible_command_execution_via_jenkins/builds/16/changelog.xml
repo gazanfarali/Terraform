@@ -1,0 +1,11 @@
+commit 59387ca4c694189aefd240550612a71942e5e942
+tree 28b8e5dd2f84040ed9bb52cd3e5cc843ad789df0
+parent a252cb918a019f9c740f731143e405a38e1a76a8
+author gazanfarali <gasyed@live.com> 2020-07-23 09:29:50 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:29:50 +0100
+
+    update inventory
+
+
+
+:100644 100644 48e56cf7cdf489da25e5ebc9fc1d2794f51365fe 5f3ade655102c4bb6024e2741712e53816f07ca6 M	inventory.txt

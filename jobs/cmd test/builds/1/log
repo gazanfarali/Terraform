@@ -1,0 +1,9 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Building on master in workspace C:\Program Files (x86)\Jenkins\workspace\cmd test
+[cmd test] $ cmd /c call C:\WINDOWS\TEMP\jenkins4008704616453994531.bat
+
+C:\Program Files (x86)\Jenkins\workspace\cmd test>echo run successfully 
+run successfully
+
+C:\Program Files (x86)\Jenkins\workspace\cmd test>exit 0 
+Finished: SUCCESS

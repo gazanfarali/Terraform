@@ -1,0 +1,11 @@
+commit 4cdc66dbad2f5ecc35b345b5bd837e99c56081e2
+tree 2220037dfa4edfd4cb405d5b91c7e4d17ec953a9
+parent 6da80eb6508effeadac23a68b726df49c0bce5ad
+author gazanfarali <gasyed@live.com> 2020-07-21 23:07:50 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-21 23:07:50 +0100
+
+    adding resources to pom.xml
+
+
+
+:100644 100644 bab778b28531ea46d7bd3a7cbcac99b1336801a2 6a8cdd10def40d7b67e8ab4e9df5272c7e04e53e M	pom.xml

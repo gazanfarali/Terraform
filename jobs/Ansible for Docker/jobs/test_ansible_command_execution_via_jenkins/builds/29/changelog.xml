@@ -1,0 +1,11 @@
+commit a6e929b88d76663c1b72073abb3e12ae82394127
+tree 5e2ff9697c8bfd1170eb17f8551d5bbab5f7dd78
+parent 671624e335c762b3718038e370eed9a2a4c7dd6b
+author gazanfarali <gasyed@live.com> 2020-07-23 10:37:18 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 10:37:18 +0100
+
+    updating cfg file
+
+
+
+:100644 100644 a2af15be64518a7e9530db0f47d1e9e025030382 8ef4d808ebcb0c0313eb72ad714ff2dcfe8d153c M	ansible.cfg.txt

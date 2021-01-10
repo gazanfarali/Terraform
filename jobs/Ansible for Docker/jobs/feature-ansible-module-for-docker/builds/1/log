@@ -1,0 +1,43 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Running as SYSTEM
+Building remotely on [8mha:////4KTAGC9qLQ7XpNYr9E3UXgmXnQESDZNIPyFSFbFwtTW9AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eLUorLUIkMA/KK/AMYAAAA=[0mserver1 (BIS) in workspace /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /root/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/ansible-module-for-docker.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/ansible-module-for-docker.git +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen branch in repository origin/test-2020-ansible-playbook
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Build step failed with exception
+java.io.IOException: Cannot retrieve Git metadata for the build
+	at org.jenkinsci.plugins.github.util.BuildDataHelper.getCommitSHA1(BuildDataHelper.java:34)
+	at org.jenkinsci.plugins.github.status.sources.BuildDataRevisionShaSource.get(BuildDataRevisionShaSource.java:32)
+	at org.jenkinsci.plugins.github.status.GitHubCommitStatusSetter.perform(GitHubCommitStatusSetter.java:135)
+Caused: org.jenkinsci.plugins.github.common.CombineErrorHandler$ErrorHandlingException
+	at org.jenkinsci.plugins.github.common.CombineErrorHandler.handle(CombineErrorHandler.java:74)
+	at org.jenkinsci.plugins.github.status.GitHubCommitStatusSetter.perform(GitHubCommitStatusSetter.java:164)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1905)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Build step 'Set GitHub commit status (universal)' marked build as failure
+Finished: FAILURE

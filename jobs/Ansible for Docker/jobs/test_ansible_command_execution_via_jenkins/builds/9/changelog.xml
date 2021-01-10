@@ -1,0 +1,22 @@
+commit ab4a685fd5741ee3e018d2e72870c0cdbd8d3e4f
+tree c7953a93cdec91e5d2538003dc00075d38c82aaa
+parent 65198360b2261ead86340d04dae44232fe789bf1
+author gazanfarali <gasyed@live.com> 2020-07-22 12:05:23 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:05:23 +0100
+
+    adding - to name
+
+
+
+:100644 100644 4ac9021799892b4ffc54f98541f8c32d7ae95aef d6fcd894fb12bdb5b054081ec83269c0c583f90a M	test.yml
+commit 65198360b2261ead86340d04dae44232fe789bf1
+tree d2bc51a205f5ab68b07422255969ab99d2046ad2
+parent 1603fad1527072a370007509a1d0cecb031418f6
+author gazanfarali <gasyed@live.com> 2020-07-22 12:03:19 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:03:19 +0100
+
+    removeing debug
+
+
+
+:100644 100644 c7349e8d26787499662d5c90a6c14d9de0dbf0c8 4ac9021799892b4ffc54f98541f8c32d7ae95aef M	test.yml

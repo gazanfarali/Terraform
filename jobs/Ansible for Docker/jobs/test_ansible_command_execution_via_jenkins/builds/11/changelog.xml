@@ -1,0 +1,11 @@
+commit ba694aff59aa80fe0ae117b2e950be6391a4b097
+tree 4f757dcb9e65019e2f7663d8677cfd7a517d640e
+parent 0c194367e385dbe65c737cf973d65f3226fbe1b6
+author gazanfarali <gasyed@live.com> 2020-07-22 12:16:02 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-22 12:16:02 +0100
+
+    copy form https://linuxhint.com/ansible_debug_module/
+
+
+
+:100644 100644 9f0abc8bc40d87941ff6d5c01e5ee7789f13da11 f82d8ceceb3117cbd73d1259846063088a4bb9d6 M	test.yml

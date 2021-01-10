@@ -1,0 +1,11 @@
+commit f725574bae8d0ad7fb84a97cc78b7f4e6ae7edfa
+tree f0a0fa1a9632e09995731dc38e8d1b0ddb4c9cad
+parent 69fb1fc6b24b06a0b4c211ff7060af5975532c14
+author gazanfarali <gasyed@live.com> 2020-08-01 19:11:24 +0100
+committer gazanfarali <gasyed@live.com> 2020-08-01 19:11:24 +0100
+
+    removing D-test file
+
+
+
+:100644 000000 8f3fdea0cae6dd6d1b0e36b89a60e35fc1cefbc3 0000000000000000000000000000000000000000 D	D-test.txt

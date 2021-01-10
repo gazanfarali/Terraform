@@ -1,0 +1,24 @@
+Started by user [8mha:////4OD/2IlYJed6ZKnhCQqgWBvr0gMCmUem8ZcaHKZD8OncAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9tMTM4sQcAFmm52jBAAAA[0msyed gazanfar ali
+Checking out git https://github.com/gazanfarali/Pipeline.git/ into C:\Program Files (x86)\Jenkins\workspace\Pipeline-tts\Pipeline@script to read Jenkinsfile
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/Pipeline.git/
+ > git init C:\Program Files (x86)\Jenkins\workspace\Pipeline-tts\Pipeline@script # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/Pipeline.git/
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/Pipeline.git/ +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gazanfarali/Pipeline.git/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gazanfarali/Pipeline.git/ # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/Pipeline.git/
+using GIT_ASKPASS to set credentials git password
+ > git fetch --tags --progress https://github.com/gazanfarali/Pipeline.git/ +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 999e23e9f335adfbc866c2d9ee3549092a8bac74 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 999e23e9f335adfbc866c2d9ee3549092a8bac74
+Commit message: "update"
+First time build. Skipping changelog.
+ERROR: C:\Program Files (x86)\Jenkins\workspace\Pipeline-tts\Pipeline@script\Jenkinsfile not found
+Finished: FAILURE

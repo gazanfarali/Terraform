@@ -1,0 +1,17 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gazanfarali/my-app.git # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/my-app.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git-cred
+ > git fetch --tags --progress https://github.com/gazanfarali/my-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 05ccc52d9014c45bed81f6613b032ad8300095be (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 05ccc52d9014c45bed81f6613b032ad8300095be
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 05ccc52d9014c45bed81f6613b032ad8300095be
+Commit message: "Update Calculator.java"
+ > git rev-list --no-walk 05ccc52d9014c45bed81f6613b032ad8300095be # timeout=10

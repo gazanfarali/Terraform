@@ -1,0 +1,65 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4JD5Ta2O/EONN+NMo5qvrwxkocojkb6ppJ8XRfwtsFuyAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/SAPV594x7zizKSc1HigrpKi/Jyc1CIA832Z8tYAAAA=[0mRHEL_Ansible_Controller (Ansible) in workspace /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git init /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker # timeout=10
+Fetching upstream changes from https://github.com/gazanfarali/ansible-module-for-docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials git password
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Failed to setup credentials
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1723)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:405)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:614)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:153)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:146)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from DESKTOP-IIP997R/192.168.56.1:58852
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1788)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:998)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:146)
+		at sun.reflect.GeneratedMethodAccessor468.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:132)
+		at com.sun.proxy.$Proxy89.execute(Unknown Source)
+		at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1146)
+		at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1186)
+		at hudson.scm.SCM.checkout(SCM.java:505)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1206)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:574)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:499)
+		at hudson.model.Run.execute(Run.java:1880)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:428)
+Caused by: java.nio.file.AccessDeniedException: /home/ansible/jenkins/workspace/Ansible for Docker/feature-ansible-module-for-docker@tmp/pass5879841779355767650.sh
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:84)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.createFile(Files.java:632)
+	at java.nio.file.TempFileHelper.create(TempFileHelper.java:138)
+	at java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:161)
+	at java.nio.file.Files.createTempFile(Files.java:852)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.createTempFile(CliGitAPIImpl.java:1566)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.createUnixStandardAskpass(CliGitAPIImpl.java:1808)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1680)
+	... 14 more
+ERROR: Error cloning remote repo 'origin'
+Finished: FAILURE

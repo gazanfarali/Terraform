@@ -1,0 +1,11 @@
+commit a252cb918a019f9c740f731143e405a38e1a76a8
+tree 158e2e0307266a5897244e4eb9422cbab84da066
+parent 96deafe90bb3e260c1e1155d978dffc2dd548508
+author gazanfarali <gasyed@live.com> 2020-07-23 09:27:42 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-23 09:27:42 +0100
+
+    update hosts
+
+
+
+:100644 100644 f596960a37a2ad84c96a0875c2abafa62a863ea0 9c9b2768b4ab8f816779e0ac1e9685a695c3d075 M	test.yml

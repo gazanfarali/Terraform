@@ -1,0 +1,32 @@
+commit 5af052c56cf34d91a365da6f8447280cf7f20afc
+tree 98deede198d3d81b56d33e692e279c673c2a87d8
+parent 8a3205679d048293ff77f404e9a428066c6a27e9
+author gazanfarali <gasyed@live.com> 2020-07-12 17:37:03 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-12 17:37:03 +0100
+
+    adding agent.jar
+
+
+
+:100644 100644 79c70dd88de563f8c92fcc8afa84102d627b4baf 79c70dd88de563f8c92fcc8afa84102d627b4baf R100	Docker-engine/agent.jar	Docker-engine/Docker/agent.jar
+commit 8a3205679d048293ff77f404e9a428066c6a27e9
+tree e78334b5e829bc032d07e3f9400adaff1a1dcf7e
+parent 1378ea3a4903a1fff6864e7c9911697f7f251af6
+author gazanfarali <gasyed@live.com> 2020-07-12 17:36:03 +0100
+committer gazanfarali <gasyed@live.com> 2020-07-12 17:36:03 +0100
+
+    adding agent.jar
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 79c70dd88de563f8c92fcc8afa84102d627b4baf A	Docker-engine/agent.jar
+:100644 000000 74f64d9bcfc5ea5fb3bf028bf3396086866d4aba 0000000000000000000000000000000000000000 D	Docker-engine/target/Docker-engine-1.0-SNAPSHOT.jar
+:100644 000000 2bc1621c495577a9e7876652b5d400c31006bbc5 0000000000000000000000000000000000000000 D	Docker-engine/target/classes/com/App.class
+:100644 000000 c1b7a7ea465655febcc900dae15f714f5f94db06 0000000000000000000000000000000000000000 D	Docker-engine/target/maven-archiver/pom.properties
+:100644 000000 1f92a1616d516f5e11f7aa91847326039f182f58 0000000000000000000000000000000000000000 D	Docker-engine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:100644 000000 451e07c0a54aae13125c3bdc9069275924e993cd 0000000000000000000000000000000000000000 D	Docker-engine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:100644 000000 d1da2023f21116c71eea03268d28d791cee53eee 0000000000000000000000000000000000000000 D	Docker-engine/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+:100644 000000 2c6a739560af4e393b35e21946a6a4e2057d965c 0000000000000000000000000000000000000000 D	Docker-engine/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+:100644 000000 a6fcfb77feba1e8bca54956246d9fb06c9fd9d7f 0000000000000000000000000000000000000000 D	Docker-engine/target/surefire-reports/TEST-com.AppTest.xml
+:100644 000000 e06234b01714c86487c76e9c6816fa519a1f5fd1 0000000000000000000000000000000000000000 D	Docker-engine/target/surefire-reports/com.AppTest.txt
+:100644 000000 74a0440d577ecd5c241a7f83198aedc6ac478856 0000000000000000000000000000000000000000 D	Docker-engine/target/test-classes/com/AppTest.class

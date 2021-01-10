@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>faisal</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@1.21">
+      <messageId>&lt;4879615.0.1528545920276.JavaMail.DESKTOP-IIP997R$@DESKTOP-IIP997R&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>36</queueId>
+  <timestamp>1528545659843</timestamp>
+  <startTime>1528545659859</startTime>
+  <result>FAILURE</result>
+  <duration>267186</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>faisal11</builtOn>
+  <workspace>/var/lib/jenkins/workspace/Firstmaven</workspace>
+  <hudsonVersion>2.125</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
